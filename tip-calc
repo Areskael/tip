@@ -1,0 +1,22 @@
+tax = 6.75 / 100
+
+meal = input("Enter the cost of the meal: ")
+
+tip = "Would you like to leave a tip?: 0, 10 or 15 percent?:  "
+while True:
+    answer = int(raw_input("> ")
+    if tip == 0:                            #Why would this be invaild syntax???? Because of 0?
+        print totalCost
+        break
+    elif tip == 10:
+        print totalCost + 10 / 100
+        break
+    elif tip == 15:
+        print totalCost + 15 / 100
+        break
+    else :
+        print "Please enter one of the follow choices: 0, 10 or 15"
+
+totalCost = tax + meal
+
+print (round(totalCost, 2))
